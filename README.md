@@ -25,3 +25,19 @@ This is a Python code that interacts with the Rfam database to retrieve informat
 The RfamDatabase class has an initializer method that takes four parameters: host, user, port, and database. These parameters are used to create a connection to the Rfam database using the mysql.connector module.
 
 To use the code, simply create an instance of the RfamDatabase class and call the desired method with the necessary parameters. The code retrieves information from the Rfam database and returns it as a Python object (e.g., string, list, tuple).
+
+
+## Question-2
+
+### This question is to test your aptitude for writing small shell scripts on Unix. You are given this URL https://www.amfiindia.com/spages/NAVAll.txt. Write a shell script that extracts the Scheme Name and Asset Value fields only and saves them in a csv file.
+
+This is a shell script written in Bash that fetches the content of a webpage and extracts two fields, "Scheme Name" and "Net Asset Value", from the content. The extracted data is then saved in a CSV file named "output.csv".
+
+### Here is a step-by-step explanation of how the script works:
+
+- The script starts by using the "wget" command to download the content of the webpage located at the specified URL. The "-qO-" option tells wget to output the content to stdout instead of saving it to a file.
+- The script then uses the "echo" command to pass the content of the webpage to the "head" and "awk" commands. The "head" command selects only the first line of the content, while the "awk" command searches for the positions of the "Scheme Name" and "Net Asset Value" fields in the line.
+- The positions of the two fields are stored in variables named "SCHEME_POS" and "ASSET_POS".
+- The script then uses the "echo" command again to pass the content of the webpage to another "awk" command. This time, the command is told to print only the "Scheme Name" and "Net Asset Value" fields, based on their positions. The command also filters out any lines with fewer than the required number of fields.
+- The output of the "awk" command is then saved to a CSV file named "output.csv".
+- Finally, the script prints a message to the console indicating that the output has been saved to the CSV file.
