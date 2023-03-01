@@ -1,4 +1,8 @@
 # Affinit_Assement-2
+
+## Question-1
+
+
 ## The following questions test your aptitude for interacting with databases. The questions are based off the following public SQL DB: https://docs.rfam.org/en/latest/database.html 
 
 - How many types of tigers can be found in the taxonomy table of the dataset? What is the "ncbi_id" of the Sumatran Tiger? (hint: use the biological name of the tiger)
