@@ -13,7 +13,8 @@
 ## Code
 ### Rfam Database Python Code
 This is a Python code that interacts with the Rfam database to retrieve information about biological data. The Rfam database is a collection of RNA families that provide information about RNA molecules' structure, function, and evolution.
-
+## Assumption
+Assumed that we need to find columns which connect two or more tables.
 ### The code creates a RfamDatabase class that has the following methods:
 
 - count_of_different_types_of_species(species): this method counts the number of different types of species in the Rfam database that match the input species string.
