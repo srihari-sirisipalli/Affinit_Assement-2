@@ -25,7 +25,7 @@ This is a Python code that interacts with the Rfam database to retrieve informat
 The RfamDatabase class has an initializer method that takes four parameters: host, user, port, and database. These parameters are used to create a connection to the Rfam database using the mysql.connector module.
 
 To use the code, simply create an instance of the RfamDatabase class and call the desired method with the necessary parameters. The code retrieves information from the Rfam database and returns it as a Python object (e.g., string, list, tuple).
-### Solutions
+### Output
 
 ```Count of different type of species of panthera tigris in taxonomy table : 8
 -------------------------------------------------------------------------------------------------------------------
