@@ -28,12 +28,13 @@ The RfamDatabase class has an initializer method that takes four parameters: hos
 To use the code, simply create an instance of the RfamDatabase class and call the desired method with the necessary parameters. The code retrieves information from the Rfam database and returns it as a Python object (e.g., string, list, tuple).
 ### Output
 
-```Count of different type of species of panthera tigris in taxonomy table : 8
+```
+Count of different type of species of panthera tigris in taxonomy table : 8
 -------------------------------------------------------------------------------------------------------------------
 NCBI ID of Sumatran Tiger : 9695
 -------------------------------------------------------------------------------------------------------------------
-Common columns between all pairs of tables(print first 10 rows):
-_annotated_file:_family_file cm seed rfam_acc
+Common columns between all pairs of tables(printing first 10 rows):
+_annotated_file:_family_file cm rfam_acc seed
 _annotated_file:_overlap_membership rfam_acc
 _annotated_file:_post_process rfam_acc
 _annotated_file:alignment_and_tree rfam_acc
@@ -62,7 +63,7 @@ mir-148 mir-148/mir-152 microRNA precursor family 541556283
 SNORD48 Small nucleolar RNA SNORD48 541556283
 mir-193 microRNA mir-193 541556283
 snoZ17 Small nucleolar RNA Z17 541556283
--------------------------------------------------------------------------------------------------------------------```
+-------------------------------------------------------------------------------------------------------------------
 ```
 ## Question-2
 
