@@ -79,3 +79,7 @@ This is a shell script written in Bash that fetches the content of a webpage and
 - The script then uses the "echo" command again to pass the content of the webpage to another "awk" command. This time, the command is told to print only the "Scheme Name" and "Net Asset Value" fields, based on their positions. The command also filters out any lines with fewer than the required number of fields.
 - The output of the "awk" command is then saved to a CSV file named "output.csv".
 - Finally, the script prints a message to the console indicating that the output has been saved to the CSV file.
+
+
+## Edited
+Sample
